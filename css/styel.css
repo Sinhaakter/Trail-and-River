@@ -1,0 +1,240 @@
+/* default */
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+.primary-title {
+    font-size: 36px;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: "PT Serif", serif;
+}
+
+.sub-title {
+
+    font-size: 16px;
+    color: #fff;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+
+/* top bar */
+.top-bar {
+    background-color: green;
+}
+
+.top-bar p {
+    color: #fff;
+}
+
+.top-bar a {
+    color: gainsboro;
+    transition: 0.3s;
+}
+
+.top-bar a:hover {
+    color: red;
+    font-weight: 500;
+}
+
+/* top header */
+
+.top-header ul li a {
+    color: gray;
+    transition: 0.3s ease-in-out;
+
+}
+
+.top-header ul li a:hover {
+    color: green;
+    font-weight: 600;
+}
+
+
+/* main-nav */
+.main-nav ul li {
+    border-right: 1px solid #dee2e6;
+
+}
+
+.main-nav ul li:last-child {
+    border-right: none;
+}
+
+
+.dropdown {
+
+    position: unset !important;
+}
+
+.dropdown-menu.show {
+    display: flex;
+    justify-content: center;
+
+}
+
+/* banner */
+.banner {
+    background-image: url("../image/Banner.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 80px 50px;
+}
+
+.sub-tilte {
+    color: #fff;
+}
+
+
+
+
+/* featured blogs */
+.card-img-overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    top: unset;
+
+}
+
+/* brands */
+
+
+.page-title h3 {
+
+    font-size: 22px;
+    font-family: "PT Serif", serif;
+    color: gray;
+}
+
+
+.banner-images ul li img {
+    filter: grayscale(1) contrast(0.3);
+}
+
+/* products */
+.products .card-title {
+
+    font-family: "PT Serif", serif;
+    font-size: 26px;
+    color: gray;
+}
+
+.products .card-text {
+
+    font-family: "PT Serif", serif;
+    font-size: 20px;
+    color: gray;
+}
+
+.products span {
+
+    font-size: 16px;
+    color: gray;
+}
+
+.products i {
+
+    font-size: 10px;
+    color: gray;
+}
+
+/* footer blog */
+
+.final-blog {
+    top: 0 !important
+}
+
+/* join the club */
+
+.join-club {
+    background-image: url(../image/view.jpeg);
+}
+
+.join-club h2 {
+    color: #fff;
+    font-family: "PT Serif", serif;
+
+}
+
+.join-club .row {
+    padding: 0 150px;
+}
+
+.para {
+    color: #fff;
+}
+
+
+/* footer */
+
+
+footer {
+    background-color: rgb(228, 215, 215);
+}
+
+footer h3 {
+
+    color: gray;
+    font-size: 20px;
+    font-family: "PT Serif", serif;
+}
+
+footer ul li a {
+    color: gray;
+}
+
+.payment h4 {
+
+    color: gray;
+    font-family: "PT Serif", serif;
+    font-size: 20;
+
+}
+
+
+.payment p {
+
+    color: gray;
+    font-family: "PT Serif", serif;
+    font-size: 16;
+
+}
+
+
+/* copy right */
+.copyright {
+    background-color: green;
+}
+.copyright ul li a{
+
+    color: #fff;
+}
+
+.copyright span, .copyright a{
+    color: rgb(248, 245, 245);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
